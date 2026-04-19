@@ -1,0 +1,16 @@
+{
+    "name": "api_check",
+    "image": "python:3.12.12-slim-trixie",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    },
+    "postCreateCommand": "pip install ipykernel TA-Lib statsmodels yfinance pandas numpy matplotlib scikit-learn seaborn vectorbt",
+    "features": {
+        "ghcr.io/devcontainers/features/git:1": {}
+    }
+}
