@@ -53,3 +53,4 @@ if __name__ == "__main__":
     main()
 
 #/usr/local/bin/python /workspaces/Algorithmic_trading/src/main.py  --tickers AKBNK.IS TUPRS.IS YKBNK.IS
+#/usr/local/bin/python /workspaces/Algorithmic_trading/src/main.py  --tickers AKBNK.IS TUPRS.IS YKBNK.IS --start 2026-01-01
