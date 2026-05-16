@@ -1,0 +1,6 @@
+Model,RMSE,MAE,MAPE (%),Directional Accuracy
+Optuna Random Forest,5.4993,3.877,1.2955,0.4253
+Optuna HistGradientBoosting EarlyStopping,7.1787,5.0476,1.6555,0.4228
+Optuna Exponential Smoothing,28.9908,23.8068,7.9987,0.357
+MSTL + AutoARIMA,31.1428,25.8538,8.7329,0.3595
+StatsForecast AutoARIMA,68.5616,58.5417,20.3244,0.3316

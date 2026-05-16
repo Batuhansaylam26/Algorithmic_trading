@@ -9,7 +9,7 @@
             ]
         }
     },
-    "postCreateCommand": "pip install ipykernel TA-Lib statsmodels yfinance pandas numpy matplotlib scikit-learn seaborn vectorbt",
+    "postCreateCommand": "pip install ipykernel nbformat TA-Lib statsmodels yfinance pandas numpy matplotlib scikit-learn seaborn vectorbt statsmodels mlforecast mlflow dvc",
     "features": {
         "ghcr.io/devcontainers/features/git:1": {}
     }

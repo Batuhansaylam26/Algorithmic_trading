@@ -8,14 +8,14 @@ class Indicators:
     def get_calculated_data(self):
         for col in self.data.columns:
             if 'Close' in col:
-                prefix = col.lstrip('Close ')
+                prefix = col.replace('Close ', '')
                 self.calculate_rsi(prefix=prefix, col_name=col)
                 self.calculate_short_long_sma(prefix=prefix, col_name=col)
             elif 'Volume' in col:   
-                prefix = col.lstrip('Volume ')    
+                prefix = col.replace('Volume ', '')    
                 self.calculate_volume_sma(prefix=prefix, col_name=col)
             elif 'High' in col:
-                prefix = col.lstrip('High ')  
+                prefix = col.replace('High ', '')  
                 low_column = col.replace('High', 'Low')
                 self.calculate_support_resistance(
                     prefix=prefix,
